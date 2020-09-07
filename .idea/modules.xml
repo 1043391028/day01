@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/09_07/09_07.iml" filepath="$PROJECT_DIR$/09_07/09_07.iml" />
       <module fileurl="file://$PROJECT_DIR$/jianzhi_offer.iml" filepath="$PROJECT_DIR$/jianzhi_offer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../leetcode/leetcode.iml" filepath="$PROJECT_DIR$/../leetcode/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../leetcode/leetcode287/leetcode287.iml" filepath="$PROJECT_DIR$/../leetcode/leetcode287/leetcode287.iml" />
     </modules>
   </component>
 </project>
