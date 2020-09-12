@@ -1,4 +1,4 @@
-package guanweizheng.jianzhi_06_minNumberInRotateArrary;
+package guanweizheng.jz_06_minNumberInRotateArrary;
 
 public class Solution {
     public int minNumberInRotateArray(int [] array) {

@@ -1,4 +1,4 @@
-package guanweizheng.jz_4_rebuildbinarytree;
+package guanweizheng.jz_04_rebuildbinarytree;
 
 import java.util.Arrays;
 

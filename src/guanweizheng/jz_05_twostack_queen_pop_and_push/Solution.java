@@ -1,4 +1,4 @@
-package guanweizheng.jz_5_twostack_queen_pop_and_push;
+package guanweizheng.jz_05_twostack_queen_pop_and_push;
 
 import java.util.Stack;
 
