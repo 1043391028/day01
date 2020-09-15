@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../CollectionAndMap" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../jianzhi_offer_day02" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../jz_offer_day01" vcs="Git" />
