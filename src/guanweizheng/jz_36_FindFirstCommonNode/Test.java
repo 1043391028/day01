@@ -16,11 +16,8 @@ public class Test {
 
         ListNode list2 = new ListNode(7);
         ListNode node6 = new ListNode(8);
-        ListNode node7 = new ListNode(4);
-        ListNode node8 = new ListNode(5);
         list2.next = node6;
-        node6.next = node7;
-        node7.next = node8;
+        node6.next = node4;
 
         Solution solution = new Solution();
         ListNode target = solution.FindFirstCommonNode(list1,list2);
