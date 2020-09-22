@@ -1,4 +1,4 @@
-package jz_44_ReverseSentence;
+package guanweizheng.jz_44_ReverseSentence;
 
 //         题目： 字符串单词反转，例如，“student. a am I”。后来才意识到，这家伙原来把句子单词的顺序翻转了，
 //                正确的句子应该是“I am a student.”。请对一一的翻转
