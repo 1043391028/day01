@@ -23,7 +23,8 @@ public class Solution {
             j = i;
         }
 
-        return sb.toString().trim();
+        return sb.deleteCharAt(sb.length()-1).toString();
+
 
     }
 
