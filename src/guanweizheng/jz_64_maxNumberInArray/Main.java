@@ -9,9 +9,11 @@ public class Main {
         int[] num  = {2,3,4,2,6,2,5,1};
         int[] num1  = {2,3,4,2,6,2,6,6,5,1};
         Solution1 solution1 = new Solution1();
+        Solution2 solution2 = new Solution2();
         ArrayList<Integer> list = new ArrayList<>();
 //        list = solution1.maxInWindows(num,3);     // 正确序列：4  4  6  6  6  5
-        list = solution1.maxInWindows(num1,3);   //  正确序列：4,4,6,6,6,6,6,6
+//        list = solution1.maxInWindows(num1,3);   //  正确序列：4,4,6,6,6,6,6,6
+        list = solution2.maxInWindows(num1,3);       //  正确序列：4,4,6,6,6,6,6,6
 
         for(int i = 0;i < list.size();++i) {
             int nums;
