@@ -14,14 +14,36 @@ package guanweizheng.jz_63_middleNumberInDataStream;
 //     堆有多种方式实现，数组或者基于队列实现。这里使用PriorityQueue实现，PriorityQueue默认是一个小顶堆，因此我们需要自己实现大顶堆,
 //     这里传入自定义的Comparator函数可以实现大顶堆
 
-public class Solution4 {
+import java.util.PriorityQueue;
 
+public class Solution4 {
+    PriorityQueue<Integer> minQue = new PriorityQueue<>();
+    PriorityQueue<Integer> maxQue = new PriorityQueue<>((o1,o2)->o2-o1);
+    int count = 0;
     public void Insert(Integer num) {
+
+        if(count%2 == 0){
+            maxQue.offer(num);
+            int max = maxQue.poll();
+            minQue.offer(max);
+        }else{
+            minQue.offer(num);
+            int min = minQue.poll();
+            maxQue.offer(min);
+        }
+        count++;
 
     }
 
     public Double GetMedian() {
-                    return null;
+        //当前为偶数个，则取小顶堆和大顶堆的堆顶元素求平均
+        if(count % 2 == 0){
+            return new Double(minQue.peek() + maxQue.peek())/2;
+        }else{
+            //当前为奇数个，则直接从小顶堆中取元素即可，所以我们要保证小顶堆中的元素的个数。
+            return ((double)minQue.peek());
+        }
+
     }
 
 }
