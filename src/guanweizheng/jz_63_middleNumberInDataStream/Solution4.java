@@ -19,20 +19,21 @@ import java.util.PriorityQueue;
 public class Solution4 {
     PriorityQueue<Integer> minQue = new PriorityQueue<>();
     PriorityQueue<Integer> maxQue = new PriorityQueue<>((o1,o2)->o2-o1);
-    int count = 0;
+    int count = 0;  //计数，计算目前加入两个堆中总个数；
     public void Insert(Integer num) {
-
+//      如果当前加入个数为偶数个，则加入小顶堆，在此之前需要先加入大顶堆比较，把最大的弹出大顶堆，然后加入小顶堆；
         if(count%2 == 0){
             maxQue.offer(num);
             int max = maxQue.poll();
             minQue.offer(max);
-        }else{
+        }else
+//            如果加入个数为奇数，则加入到大顶堆，同样在此之前，先进入小顶堆比较，弹出最小数，然后加入到大顶堆
+        {
             minQue.offer(num);
             int min = minQue.poll();
             maxQue.offer(min);
         }
         count++;
-
     }
 
     public Double GetMedian() {
