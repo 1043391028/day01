@@ -20,7 +20,7 @@ public class Solution {
         if(k == str.length - 1) return true;
         char temp = table[i][j];
         table[i][j] = '/';
-        boolean result = dfs(table,str,i+1,j,k++) || dfs(table,str,i-1,j,k++) || dfs(table,str,i,j+!,k++)||
+        boolean result = dfs(table,str,i+1,j,k++) || dfs(table,str,i-1,j,k++) || dfs(table,str,i,j+1,k++)||
                 dfs(table,str,j -1,j,k++);
         return result;
     }
