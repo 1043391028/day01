@@ -15,10 +15,12 @@ public class Solution {
                int p2 = 0,p3 = 0, p5 = 0;
 //               遍历到下标,得到第index个丑数;
                for(int i= 1 ; i < index; i++){
-                   result[i] = Math.min(2*result[p2], Math.min(3*result[p3], 5*result[p5]));//比较三个数组大小
-                   if(result[i] == 2*result[p2]) p2++;  // 相当于p2[] 数组在不停的更新,p2++,result[p2]下一个最小的丑数
-                   if(result[i] == 3*result[p3]) p3++;  // 相当于p3[] 数组在不停的更新
-                   if(result[i] == 5*result[p5]) p5++;  // 相当于p5[] 数组在不停的更新
+                   //找到三个数组中方最小的数,并放入发到合并数组中
+                   result[i] = Math.min(2*result[p2], Math.min(3*result[p3], 5*result[p5]));
+                   if(result[i] == 2*result[p2]) p2++;  // 相当于p2[] 数组在不停的更新,p2++,result[p2]下一个最小的丑数,
+                                                        // 如果第K个丑数==2*p2，也就是说前面0-p2个丑数*2不可能产生比第K个丑数更大的丑数了，所以p2++
+                   if(result[i] == 3*result[p3]) p3++;  // 相当于p3[] 数组在不停的更新,.....同上
+                   if(result[i] == 5*result[p5]) p5++;  // 相当于p5[] 数组在不停的更新,.....同上
                }
                return result[index-1];
 
