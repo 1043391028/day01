@@ -1,4 +1,4 @@
-package guanweizheng.jz_54_circleStartNode;
+package guanweizheng.jz_56_deleteDupicateNode;
 
 public class ListNode {
     int val;

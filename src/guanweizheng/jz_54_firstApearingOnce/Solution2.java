@@ -1,4 +1,4 @@
-package guanweizheng.jz_53_firstApearingOnce;
+package guanweizheng.jz_54_firstApearingOnce;
 
 //     思路二: 队列实现，
 //     大致过程:  新建一队列（保存加入的字符）和数组（保存加入字符次数）
