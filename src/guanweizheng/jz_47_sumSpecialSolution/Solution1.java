@@ -5,5 +5,9 @@ package guanweizheng.jz_47_sumSpecialSolution;
 
 public class Solution1 {
 
+    public int Sum_Solution(int n) {
+        int sum = ( (int) Math.pow(n,2) + n ) >> 2;
+        return sum;
+    }
 
 }
