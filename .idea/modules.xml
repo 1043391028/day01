@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../CollectionAndMap/Java_Note.iml" filepath="$PROJECT_DIR$/../CollectionAndMap/Java_Note.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Test/Test.iml" filepath="$PROJECT_DIR$/../Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java_Note/java_Note.iml" filepath="$PROJECT_DIR$/../java_Note/java_Note.iml" />
       <module fileurl="file://$PROJECT_DIR$/jianzhi_offer.iml" filepath="$PROJECT_DIR$/jianzhi_offer.iml" />
