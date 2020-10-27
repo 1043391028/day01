@@ -10,6 +10,7 @@ package guanweizheng.jz_67_cutRope;
 //                        相当于把最后一段长度为“3”的段和余的段“1”合并，然后分解为2*2；
 //             3.   余 2；长度为“3”段数：target/3    最大乘积：3^(target/3)*2;
 
+
 public class Solution1 {
     public int cutRope(int target) {
         if(target <= 1) return 0;
