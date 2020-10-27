@@ -7,6 +7,7 @@ package guanweizheng.jz_01_findNumbleFromArray;
 //                   所以可以从右上角遍历,小于则向下移动一行,大于则向左移动一行,可以提高效率;
 //                   (下面方法为第二种,从右上角遍历数组,也可以从左下角遍历)
 
+
 public class Solution {
     public boolean findNumber(int target,int[][] array){
 
