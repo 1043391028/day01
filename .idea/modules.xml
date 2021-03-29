@@ -4,11 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Test/Test.iml" filepath="$PROJECT_DIR$/../Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java_Note/java_Note.iml" filepath="$PROJECT_DIR$/../java_Note/java_Note.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jianzhi_offer.iml" filepath="$PROJECT_DIR$/jianzhi_offer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../jianzhi_offer_day02/jianzhi_offer_day02.iml" filepath="$PROJECT_DIR$/../jianzhi_offer_day02/jianzhi_offer_day02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../jz_offer_day01/jz_offer_day01.iml" filepath="$PROJECT_DIR$/../jz_offer_day01/jz_offer_day01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../leetcode/jianzhiOffer/jz_Offer.iml" filepath="$PROJECT_DIR$/../leetcode/jianzhiOffer/jz_Offer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../leetcode/leetcode.iml" filepath="$PROJECT_DIR$/../leetcode/leetcode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../leetcode/leetcode287/leetcode287.iml" filepath="$PROJECT_DIR$/../leetcode/leetcode287/leetcode287.iml" />
     </modules>
   </component>
 </project>
